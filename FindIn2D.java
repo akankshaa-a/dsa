@@ -11,7 +11,7 @@ public class FindIn2D {
 			if(arr[mid][col]==elem)
 			{
 				System.out.println("Found "+elem+" at "+mid+","+col);
-				System.exit(0);
+				return;
 			}
 			else if(arr[mid][col]<elem)
 				low=mid+1;
@@ -64,7 +64,10 @@ public class FindIn2D {
 			
 			//To search for elements in the first and last column
 			if( (high-low==1 && arr[0][low]<elem && arr[0][high]>elem) ||(high==low))
+			{
 				searchincol(arr,low,elem);
+				return;
+			}
 			
 		}
 		
