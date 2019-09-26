@@ -34,7 +34,7 @@ public class FindIn2D {
 		
 		System.out.println("Enter element to search");
 		int elem = sc.nextInt();
-		int low=0,high=4,mid;
+		int low=0,high=arr[0].length-1,mid;
 		
 		while(low<=high)
 		{
