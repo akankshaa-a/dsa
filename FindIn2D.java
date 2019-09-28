@@ -20,7 +20,7 @@ public class FindIn2D {
 
 		}
 		System.out.println("Not found");
-		System.exit(0);
+		return;
 	}
 	
 	public static void main(String[] args)
