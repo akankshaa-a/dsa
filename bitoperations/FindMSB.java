@@ -28,7 +28,7 @@ public class FindMSB {
 				
 		/*
 		   Another approach that works:
-		 	 System.out.println(math.pow(2,math.floor(math.log(num)/math.log(2))));
+		 	 System.out.println(Math.pow(2,Math.floor(Math.log(num)/Math.log(2))));
 		 */
 		 
 		 /**
