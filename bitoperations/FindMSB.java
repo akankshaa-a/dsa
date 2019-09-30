@@ -23,8 +23,8 @@ public class FindMSB {
 			count++;
 		}
 		
-		//left shift 1 by count positions to get MSB
-		System.out.println(count<<1);
+		//left shift 1 by count-1 positions to get MSB
+		System.out.println(1<<(count-1));
 				
 		/*
 		   Another approach that works:
