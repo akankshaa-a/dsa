@@ -28,9 +28,7 @@ public class FindMSB {
 				
 		/*
 		   Another approach that works:
-		 * read n again
-		 * System.out.println(math.pow(2,math.floor(math.log(n)/math.log(2))));
-		 
+		 	 System.out.println(math.pow(2,math.floor(math.log(num)/math.log(2))));
 		 */
 		 
 		 /**
@@ -38,7 +36,7 @@ public class FindMSB {
 		 * so Log of that number to the base 2 will give:
 		 *  the power to which 2 should be raised, to get that number.
 		 *  If the number is not a perfect multiple of 2,we get decimal fraction 
-		 *  So we use Math.ceil.
+		 *  So we use Math.floor
 		 * Finally, we use Math.pow(2, ) to get the MSB
 		 */
 	}
